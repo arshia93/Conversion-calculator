@@ -1,0 +1,62 @@
+body {
+    margin: 0 auto;
+    align-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.header-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #075985;
+    color: white;
+}
+.header-section > h3 {
+    font-size: 24px;
+    font-weight: 500;
+    font-weight: 700;
+}
+#enteredNum {
+    border: 2px solid #E0F2FE;    
+    background: none;
+    width: 80px;
+    height: 60px;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#convertBtn {
+    border: none;
+    width: 80px;
+    height: 30px;
+    margin-bottom: 20px;
+    background: white;
+    border-radius: 2px;
+    font-weight: 400;
+}
+.conversion-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #F4F4F4;
+    padding: 20px;
+}
+#converted-results {
+    width: 500px;
+    height: 100px;
+    background: white;
+    margin: 10px
+}
+
+#converted-results > h4 {
+    color: #0C4A6E;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+#volumeResult {
+    color: #353535;
+}
